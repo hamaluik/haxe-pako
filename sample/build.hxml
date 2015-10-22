@@ -1,0 +1,3 @@
+-lib pako
+-main Sample
+-js output/pakoSample.js
