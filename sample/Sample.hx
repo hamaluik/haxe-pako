@@ -1,4 +1,4 @@
-import js.pako.Pako;
+import pako.Pako;
 import js.html.Uint8Array;
 
 class Sample {
@@ -12,10 +12,10 @@ class Sample {
 
 		var input:Uint8Array = new Uint8Array(arr);
 		js.Browser.document.write('<p>Input: <pre><code>[' + input + ']</code></pre></p>');
-		
+
 		var deflated:Uint8Array = Pako.deflate(input);
 		js.Browser.document.write('<p>Deflated: <pre><code>[' + deflated + ']</code></pre></p>');
-		
+
 		var inflated:Uint8Array = Pako.inflate(deflated);
 		js.Browser.document.write('<p>Inflated: <pre><code>[' + inflated + ']</code></pre></p>');
 	}
