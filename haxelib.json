@@ -2,9 +2,10 @@
   "name": "pako",
   "url" : "https://github.com/FuzzyWuzzie/haxe-pako",
   "license": "MIT",
-  "tags": ["js"],
+  "tags": ["js", "zlib", "inflate", "deflate", "compression", "gzip", "ungzip"],
   "description": "Haxe externs for the pako js library (https://github.com/nodeca/pako)",
   "version": "1.0.0",
+  "classPath": "src",
   "releasenote": "Initial release, everything is working correctly.",
   "contributors": ["FuzzyWuzzie"],
   "dependencies": {}

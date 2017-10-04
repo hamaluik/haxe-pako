@@ -1,11 +1,12 @@
-package js.pako;
+package pako;
 
 import js.html.Uint8Array;
-import js.pako.Deflate.DeflateOptions;
-import js.pako.Inflate.InflateOptions;
+import pako.Deflate.DeflateOptions;
+import pako.Inflate.InflateOptions;
 
 @:native('pako')
 extern class Pako {
+
 	@:overload(function(data:Uint8Array, ?options:DeflateOptions):Uint8Array{})
 	@:overload(function(data:Array<Int>, ?options:DeflateOptions):Array<Int>{})
 	public static function deflate(data:String, ?options:DeflateOptions):String;

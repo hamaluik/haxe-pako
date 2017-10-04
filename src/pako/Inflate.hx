@@ -1,4 +1,4 @@
-package js.pako;
+package pako;
 
 import js.html.Uint8Array;
 import js.html.ArrayBuffer;
