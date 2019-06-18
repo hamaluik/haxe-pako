@@ -1,8 +1,13 @@
 package pako;
 
 import pako.Pako;
+#if haxe4
+import js.lib.Uint8Array;
+import js.lib.ArrayBuffer;
+#else
 import js.html.Uint8Array;
 import js.html.ArrayBuffer;
+#end
 import haxe.extern.EitherType;
 
 typedef GZIPHeader = {

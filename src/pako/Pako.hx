@@ -1,7 +1,12 @@
 package pako;
 
+#if haxe4
+import js.lib.Uint8Array;
+import js.lib.ArrayBuffer;
+#else
 import js.html.Uint8Array;
 import js.html.ArrayBuffer;
+#end
 import pako.Deflate.DeflateOptions;
 import pako.Inflate.InflateOptions;
 import haxe.extern.EitherType;
