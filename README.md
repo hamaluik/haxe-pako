@@ -1,9 +1,9 @@
 # haxe-pako
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/FuzzyWuzzie/haxe-pako/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/hamaluik/haxe-pako/blob/master/LICENSE)
 
 Haxe externs for the [pako][1] library.
 
-**NOTE**: You must import the [pako][1] library into your HTML file for this to work. In case the source ever goes offline, a copy can be found here: https://github.com/FuzzyWuzzie/haxe-pako/blob/master/libs/pako.min.js
+**NOTE**: You must import the [pako][1] library into your HTML file for this to work. In case the source ever goes offline, a copy can be found here: https://github.com/hamaluik/haxe-pako/blob/master/libs/pako.min.js
 
 ## Examples
 
@@ -29,6 +29,6 @@ js.Browser.document.write('<p>Inflated: <pre><code>[' + inflated + ']</code></pr
 
 ### Live Sample
 
-A [live sample](http://FuzzyWuzzie.github.io/haxe-pako/) is available which deflates an array of integers and successfully re-inflates them.
+A [live sample](http://hamaluik.github.io/haxe-pako/) is available which deflates an array of integers and successfully re-inflates them.
 
 [1]: https://github.com/nodeca/pako

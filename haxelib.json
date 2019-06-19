@@ -1,6 +1,6 @@
 {
   "name": "pako",
-  "url" : "https://github.com/FuzzyWuzzie/haxe-pako",
+  "url" : "https://github.com/hamaluik/haxe-pako",
   "license": "MIT",
   "tags": ["js", "zlib", "inflate", "deflate", "compression", "gzip", "ungzip"],
   "description": "Haxe externs for the pako js library (https://github.com/nodeca/pako)",
