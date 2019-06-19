@@ -4,9 +4,9 @@
   "license": "MIT",
   "tags": ["js", "zlib", "inflate", "deflate", "compression", "gzip", "ungzip"],
   "description": "Haxe externs for the pako js library (https://github.com/nodeca/pako)",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "classPath": "src",
-  "releasenote": "Initial release, everything is working correctly.",
-  "contributors": ["FuzzyWuzzie"],
+  "releasenote": "Updated for Haxe 4",
+  "contributors": ["FuzzyWuzzie", "RealyUniqueName", "terurou"],
   "dependencies": {}
 }
