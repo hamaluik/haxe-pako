@@ -1,5 +1,5 @@
 import pako.Pako;
-import js.html.Uint8Array;
+import js.lib.Uint8Array;
 
 class Sample {
 	static public function main() {
